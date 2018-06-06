@@ -1,0 +1,59 @@
+.account {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: #c0c0c0;
+	padding: 20px;
+	background-image: linear-gradient( #ccc,#000);
+}
+
+.login-body {
+	background: rgba(248, 248, 248, 0.2);
+    padding: 1em 2em;
+    box-sizing: border-box;
+}
+
+.login-main {
+	width: 500px;
+	margin: 0 auto;
+}
+
+
+.login-group {
+	margin: 1em 0;
+	
+}
+.login-label {
+	
+}
+.login-star {
+	position: absolute;
+	margin-left: -1em;
+	font-family: simsun;
+	color: #f20;
+}
+.login-cell {margin-top: 1em; width: 210px; text-align: center;}
+.login-main input {height: 28px; width: 100%; line-height: 28px; border: none; text-indent: 1em;}
+
+input[type='submit'] {width: 100px; border-radius: 5px; color: #f8f8f8;}
+input[type='submit']:hover {color: orange;}
+
+.code-group .code {width: 100px; height: 30px; line-height: 30px;}
+.code-group img {vertical-align: middle; float: right;}
+.code-group span {position: absolute; margin-left: -1.5em; margin-top: 0.5em;}
+
+.login-warn > .icon-warn {
+	position: absolute;
+	margin-left: -20px;
+}
+
+.icon-warn {
+	display: inline-block;
+	width: 20px;
+	height: 21px;
+}
+
+.login-remark {
+	position: absolute;
+	line-height: 28px;
+	color: #666;
+}
