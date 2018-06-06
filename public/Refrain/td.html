@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>table-cell</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+		.wrap {
+			background-color: #f00;
+			display: table;
+			width: 100%;
+		}
+		.search {
+			background-color: #0f0;
+		}
+		.product {background-color: blue;}
+		.aside {
+			<!-- display: table-cell; -->
+			background-color: olive;
+			width: 480px;
+			clear: both;
+		}
+		.col {}
+	
+	
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="search">
+			<dl class="product col">
+				<dt>Product</dt>
+				<dd><a>Companion</a></dd>
+				<dd><a>Ring</a></dd>
+				<dd><a>Sled</a></dd>
+				<dd><a>Scanbuddy</a></dd>
+				<dd><a>Armband</a></dd>
+			</dl>
+		   
+			<dl class="partner col">
+				<dt>Partner</dt>
+				<dd><a>Partner Program</a></dd>
+				<dd><a>Find Local Partner</a></dd>
+				<dd><a>Become Partner</a></dd>
+			</dl>
+			
+			<div class="c4 col">
+				<p><a href="">Contact Us</a></p>
+				<p>+86-817-3393130</p>
+				<ul>
+					<li><a href="" title="facebook"><i class="fa fa-facebook  "></i></a></li>
+					<li><a href="" title="twitter"><i class="fa fa-twitter  "></i></a></li>
+					<li><a href="" title="google"><i class="fa fa-google  "></i></a></li>
+					<li><a href="" title="linkedin"><i class="fa fa-linkedin  "></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="aside">
+			<dl class="aboutUs column">
+				<dt>Generalscan Electronics Co.; Ltd</dt>
+				<dd>Room A608, 6 Floor, Building 3, <br />
+					Yadi Science Park, Hetai Road</dd>
+				<dd>Baiyun District, Guangzhou, China.510425</dd>
+			</dl>
+		</div>
+	</div>
+</body>
+</html>

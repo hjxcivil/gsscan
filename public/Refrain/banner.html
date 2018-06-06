@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>banner</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+		.wrap {
+			position: relative;
+			overflow: hidden;
+		}
+		ul {
+			//padding-bottom: 34.7%;
+			
+			width: 500%;
+		}
+		ul li {
+			float: left;
+			width: 20%;
+		}
+		ul li img {
+			vertical-align: top;
+			width: 100%;
+		}
+		
+		.dot {
+			position: absolute;
+			bottom: 0;
+			right: 1em;
+		}
+		
+		.dot i {
+			display: inline-block;
+			color: #ccc;
+			width: 20px;
+			height: 20px;
+			margin-right: 3px;
+			text-align: center;
+			background-color: #ccc;
+			cursor: pointer;
+		}
+		.dot i.on {
+			background-color: orangered;
+		}
+		
+	
+	</style>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script src="final.js" ></script>
+</head>
+<body>
+	<div id="wrap" class="wrap">
+		<ul id="list">
+			<li><img src="http://img.mukewang.com/54111cd9000174cd04900170.jpg" alt=""></li>
+			<li><img src="http://img.mukewang.com/54111dac000118af04900170.jpg" alt=""></li>
+			<li><img src="http://img.mukewang.com/54111d9c0001998204900170.jpg" alt=""></li>
+			<li><img src="http://img.mukewang.com/54111d7d00018ba604900170.jpg" alt=""></li>
+			<li><img src="http://img.mukewang.com/54111d8a0001f41704900170.jpg" alt=""></li>
+			
+		</ul>
+		<div class="dot"><i class="on">1</i><i>2</i><i>3</i><i>4</i><i>5</i></div>
+	</div>
+</body>
+</html>

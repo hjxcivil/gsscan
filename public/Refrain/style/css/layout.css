@@ -1,0 +1,234 @@
+/* Mobile/lower-resolution devices */
+@media screen and (max-width:640px) {
+/* 轮播-banner */
+	.banner .dot {
+		display: none;
+	}	
+	
+	
+	
+	
+	
+	.column {position: relative;margin-bottom: 0;line-height: 2em;border-bottom: 1px solid #ccc;}
+	.column dt {line-height: 2em;}
+	.column dd {line-height: 2em;}
+	
+	.column dt:before {content: '';position: absolute; z-index: -1;transition: 2s;color: transparent;top: 5px;left: 0;right: 0;bottom: 0;border: 1px solid; border-bottom: none;}
+	.column dt.active:before {color: #ccc;}
+	
+	.column dt i {display: inline-block; transition: 0.5s; font-size: 1.2em; position: absolute; right: 0; }
+	.column dt.active i {transform: rotate(135deg);}
+	
+	.column dd {text-indent: 15px;display: none;}
+
+
+}
+
+
+@media screen and (min-width:641px) {
+	
+/* 轮播-banner */
+	.list img {
+		height: auto;
+	}
+	
+/* showcase */
+#container .showcase {display: flex; border: 1px solid #ccc;}
+.showcase figure { border: 1px solid blue}
+.main-fig {flex:3; display: flex; align-items: center; }
+.side-fig {flex:2;}
+
+.showcase .side-fig { border-left: 2px solid olive}
+/* .showcase figure:nth-child(1) { flex: 1; border: 1px solid blue} */
+/* .showcase figure:nth-child(2) { flex: 2; border: 1px solid blue} */
+/* .showcase figure:nth-child(3) { flex: 3; border: 1px solid blue} */
+/* .showcase figure:nth-child(4) { flex: 4; border: 1px solid blue} */
+.showcase figure img {width: 100%;border-bottom: 1px solid olive;}
+.showcase figure figcaption {}
+.showcase figcaption h3 {}
+.showcase figcaption p {}
+	
+	
+	
+	
+	
+	
+	
+
+	.footer-wrap { }
+
+	.col {float: left; width: 25%; }
+	
+
+
+
+}
+
+@media screen and (min-width:961px) {
+	
+	header .top-wrap {
+		overflow: hidden;
+		position: relative;
+	}
+	
+	
+	
+	.top .top-right {
+		margin-top: 41px;
+	}
+	
+	.top-right .login {display: block;}
+	
+	
+	.top-right #menu  {
+		display: none;
+	}
+	
+
+	header .search-box {
+		width: 35%;
+		position: absolute;
+		right: 20px;
+		margin-top: -41px;
+	}
+	
+
+	.search-box span {
+		
+	}
+
+	header .nav {
+		display: block;
+		margin-top: -52px;
+		float: left;
+		padding-left: 20px;
+		width: auto;
+	}
+
+	.nav .outer {
+		border-bottom: none;
+		width: auto;
+		float: left;
+		text-indent: 0;
+		margin-right: 20px;
+		background-color: #f8f8f8;
+	}
+	
+	.nav .outer:hover {
+		border-bottom: 5px solid #f00;
+	}
+	
+	.nav .outer:hover>a {
+		color: red;
+	} 
+	
+	
+	.nav li.exp:before {
+		display: none;
+	}
+	.exp i {
+		display: none;
+	}
+	
+
+	.nav .inner {
+		position: absolute;
+		padding-left: 0;
+		display: none;
+		border-top: none;
+		background-color: #63192a;
+	}
+	.nav .inner.exped {
+		display: block;
+	}
+	
+	.info {
+		overflow: hidden;
+		
+	}
+	.info .item {
+		float: left;
+		width: 33%;
+		
+		border-right: 1px solid #ccc;
+	}
+	.item .icode {float: none;}
+	.item .icode img {vertical-align: top;}
+	.icode span {display: inline; font-size:2em;font-weight: bold;}
+	.info .item:last-child {
+		border-right: none;
+	}
+	.info .item .detail {margin-left: 0;}
+	.item .detail h3 {display: none;}
+	
+	
+	
+/* showcase */
+#container .showcase {display: flex; border: 1px solid #ccc;}
+.showcase figure { border: 1px solid blue}
+.main-fig {flex:1;}
+.side-fig {flex:2; display:flex;}
+
+.showcase .side-fig { border-left: 2px solid olive}
+
+
+/* .showcase figure:nth-child(1) { flex: 1; border: 1px solid blue} */
+/* .showcase figure:nth-child(2) { flex: 2; border: 1px solid blue} */
+/* .showcase figure:nth-child(3) { flex: 3; border: 1px solid blue} */
+/* .showcase figure:nth-child(4) { flex: 4; border: 1px solid blue} */
+.showcase figure img {width: 100%;border-bottom: 1px solid olive;}
+.showcase figure figcaption {}
+.showcase figcaption h3 {}
+.showcase figcaption p {}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	.footer-wrap {display:table; width: 90%; max-width: 1200px; margin: auto; }
+
+	.footer-top .col {float: left; width: 50%; }
+	.footer-top .c4 {margin-top: 1em;}
+	.footer-bottom {display: table-cell; vertical-align: top;}
+	
+}
+
+@media screen and (min-width: 1301px) {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	.footer-wrap {display:table;  margin: auto; }
+
+	.footer-top .col {float: left; width: 33%; }
+	.footer-top .c4 {margin-top: 0;}
+	.footer-bottom {display: table-cell; vertical-align: top;}
+	
+}
